@@ -1,0 +1,13 @@
+doctype html
+include head.pug
+aside#leftside
+aside#rightside
+#container
+    include header.pug
+    main
+        include photos.pug
+        h2
+            blogtitle
+        include blogpost.pug
+    include footer.pug
+script(src='js/vue.js')
